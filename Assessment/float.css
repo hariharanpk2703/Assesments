@@ -1,0 +1,26 @@
+.flex{
+    background-color: black;
+    padding: 1rem;
+    display: block;
+}
+.box1{
+    background-color: aqua;
+    display: inline-block;
+    padding: 1rem;
+}
+.box2{
+    background-color: white;
+    display: inline-block;
+    padding: 1rem;
+}
+.box3{
+    background-color: yellow;
+    display: inline-block;
+    padding: 1rem;
+    float:right;
+}
+.box4{
+    background-color: grey;
+    display: inline-block;
+    padding: 1rem;
+}

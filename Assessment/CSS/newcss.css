@@ -1,0 +1,29 @@
+div{
+    display: inline-block;
+   background-color: dodgerblue;
+    padding: 30px;
+}
+em{
+    display: inline-block;
+}
+b{
+    display: inline-block;
+    background-color: gold;
+    padding: 35px;
+}
+.flex-container{
+    background-color: greenyellow;
+    padding: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center ;
+    display: inline-block;
+}
+.flex-item{
+    background-color: red;
+    margin: 3px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    justify-content: space-evenly;
+}

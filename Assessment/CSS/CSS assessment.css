@@ -1,0 +1,18 @@
+div{
+    font-style: italic; font-size: 30px; color: red;
+}
+h1{
+    color: red;
+}
+.parent{
+    font-size: 20px; color: darkred;
+}
+.child{
+font-size: 20px; color: brown;
+}
+.kid{
+font-style: italic; font-size: 20px; color: red;
+}
+a{
+    font-style: italic; font-size: 20px; color: red;   
+}

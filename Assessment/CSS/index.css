@@ -1,0 +1,33 @@
+/*p{
+    background-color: aqua;
+}
+b{font-style:italic; font-size: 35px;
+    color: rgb(253, 253, 13);
+    background-color: burlywood;
+}
+div{font-size: 25px;
+     color: red;
+    background-color: cornflowerblue;
+    display: inline;
+}
+em{font-size: 55px;
+    color: rgb(168, 0, 0) ;
+    background-color: lightcyan;
+}
+section{
+    font-size: 85px;
+    color: lime;
+    background-color: maroon;
+}*/
+ body{
+     font-size: 100px; color: yellowgreen;
+ }
+.parent{
+    font-size: 10vw;
+    background-color: yellow;
+}
+.child{
+    font-size: 0.5em;
+    background-color: tomato;
+    
+}
