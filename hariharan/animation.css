@@ -1,1 +1,45 @@
-ff
+body{
+    background-color: rgb(255, 174, 0);
+
+}
+.row1a{
+    margin: auto;
+    width: 40%;
+}
+.rows{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row1, .row2 , .row3{
+   
+    background-color: rgb(5, 107, 155);
+    display: block;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    animation: row1 4s linear 0s infinite alternate;
+}
+@keyframes row1 {
+    0%{
+        transform: skewX(30deg);
+    }
+    100%{
+        transform: skewX(-30deg);
+    }
+}
+@keyframes row2 {
+    0%{
+        transform: skewX(30deg);
+    }
+    100%{
+        transform: skewX(-30deg);
+    }
+}
+@keyframes row3 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

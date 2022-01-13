@@ -5,7 +5,7 @@ p{
     position: absolute; 
     /*left: 405px;*/
     top: 145px;
-    right: 1105px;
+    right: 1205px;
 
 }
 
@@ -24,10 +24,10 @@ span{
     border-width: 10px;
     /*position: relative;*/
     position: absolute;
-    left: 485px;
-    right: 485px;
+    left: 385px;
+    right: 385px;
     top: 265px;
-    bottom: 155px;
+    bottom: 55px;
     display: flex;
     justify-content: space-between;
     
@@ -40,8 +40,8 @@ span{
     display: inline-block;
     text-align: center;
     font-size: 25px;
-    height: 500px;
-    width: 280px;
+    height: 600px;
+    width: 340px;
     border-radius: 45px;
     display: inline-block;
 }
