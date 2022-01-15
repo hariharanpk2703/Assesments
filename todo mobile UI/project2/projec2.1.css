@@ -1,0 +1,142 @@
+@media screen and (min-width: 420px) and (max-width: 768px) {
+    .main{
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         height: 100%;
+         width: 90%;
+         margin: 5%;
+         flex-flow: column wrap;
+    }
+
+    .add_name, .completed, .pending{
+        display: none;
+    }
+    .tasks{
+        display: inline;
+        font-weight: bolder;
+        font-size: 10vw;
+        color: #222222ea;
+    }
+    .lists{
+        display: inline;
+        font-weight: lighter;
+        font-size: 10vw;
+        color: grey;
+    }
+    .secondrow{
+        display: flex;
+        justify-content: center;
+    }
+    hr{
+        display: none;
+    }
+    .paris{
+        border-top: 1px solid maroon;
+        border-left: 1px solid maroon;
+        border-right-color: rgb(240, 136, 136);
+        border-bottom-color: rgb(240, 136, 136);
+        width: 95%;
+        height: 90%;
+        margin: 30px 10px 0px;
+        font-weight: lighter;
+        box-shadow: 10px 10px 10px rgb(212, 204, 204);
+    }
+    .trip_head{
+        font-size: 25px;
+        font-weight: lighter;
+        padding: 10px;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        text-decoration: none;   
+        text-align: left;
+        font-weight: lighter;
+        color: brown;
+    }
+    .todo{
+        border-top: 1px solid maroon;
+        border-left: 1px solid maroon;
+        border-right-color: rgb(240, 136, 136);
+        border-bottom-color: rgb(240, 136, 136);
+        width: 95%;
+        height: 90%;
+        margin: 30px 10px 0px;
+        font-weight: lighter;
+        box-shadow: 10px 10px 10px rgb(212, 204, 204);
+    }
+    .num{
+        color: brown;
+        display: inline;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 420px) {
+    .main{
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         height: 100%;
+         width: 90%;
+         margin: 5%;
+         flex-flow: column wrap;
+    }
+
+    .add_name, .completed, .pending{
+        display: none;
+    }
+    .tasks{
+        display: inline;
+        font-weight: bolder;
+        font-size: 10vw;
+        color: #222222ea;
+    }
+    .lists{
+        display: inline;
+        font-weight: lighter;
+        font-size: 10vw;
+        color: grey;
+    }
+    .secondrow{
+        display: flex;
+        justify-content: center;
+    }
+    hr{
+        display: none;
+    }
+    .paris{
+        border-top: 1px solid maroon;
+        border-left: 1px solid maroon;
+        border-right-color: rgb(240, 136, 136);
+        border-bottom-color: rgb(240, 136, 136);
+        width: 95%;
+        height: 90%;
+        margin: 30px 10px 0px;
+        font-weight: lighter;
+        box-shadow: 10px 10px 10px rgb(212, 204, 204);
+    }
+    .trip_head{
+        font-size: 25px;
+        font-weight: lighter;
+        padding: 10px;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        text-decoration: none;   
+        text-align: left;
+        font-weight: lighter;
+        color: brown;
+    }
+    .todo{
+        border-top: 1px solid maroon;
+        border-left: 1px solid maroon;
+        border-right-color: rgb(240, 136, 136);
+        border-bottom-color: rgb(240, 136, 136);
+        width: 95%;
+        height: 90%;
+        margin: 30px 10px 0px;
+        font-weight: lighter;
+        box-shadow: 10px 10px 10px rgb(212, 204, 204);
+    }
+    .num{
+        color: brown;
+        display: inline;
+    }
+}

@@ -68,7 +68,7 @@ font-weight: bolder;
 .add{
     position: absolute;
     top: 205px ;
-    right: 545px;
+    right: 435px;
     color: grey;
     font-size: 3rem;
     font-family: 'Roboto Condensed', sans-serif;
@@ -81,6 +81,6 @@ font-weight: bolder;
     font-weight: lighter;
     position: absolute;
     top: 215px ;
-    right: 745px;
+    right: 615px;
 
 }

@@ -1,0 +1,124 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* border-radius: 10px; */
+    /* flex-direction: column; */
+    /* border: 1px solid grey; */
+    height: 100vh;
+    /* width: 50vw; */
+    /* margin-top: 50px;
+    margin-left: 100px; */
+    margin: 5% 20%;
+    /* height: 100px;
+    width: 80%; */
+}
+.firstrow{
+    display: flex;
+    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: auto auto; */
+    /* border:1px solid red;
+    border-radius: 10px; */
+    /* padding: 1px 20px 5px; */
+    /* flex-direction: row; */
+    height: 120px; 
+    width: 102%;
+    
+}
+.fleft{
+    /* border:1px solid red;
+    border-radius: 10px; */
+    /* height: 50px;
+    width: 300px; */
+    /* padding: 1px 120px 5px; */
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    position: relative;
+    top: 30px;
+}
+.tasks{
+    display: inline;
+    font-weight: bolder;
+    font-size: 60px;
+    color: #222222ea;
+}
+.lists{
+    display: inline;
+    font-weight: lighter;
+    font-size: 60px;
+    color: grey;
+}
+.fright{
+    /* border:1px solid red;
+    border-radius: 10px; */
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 30px;
+}
+
+.add{
+    display: inline-block;
+}
+.secondrow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+    height: 100px;
+    width: 102%;
+}
+.paris{
+    border:1px solid tomato;
+    border-radius: 10px;
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(212, 204, 204);
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.trip_head{
+    font-size: 30px;
+    font-weight: lighter;
+    color: tomato;
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.completed{
+    font-size: 24px;
+    color: red;
+    text-decoration: line-through;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: bolder;
+}
+.pending{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.checkbox {
+    transform: scale(1.5);
+}
+.todo{
+    border:1px solid tomato;
+    border-radius: 10px;
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(212, 204, 204);
+}
+.num{
+    display: none;
+}
+.LSB{
+    margin-left: 12px;
+}
