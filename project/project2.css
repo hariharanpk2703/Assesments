@@ -46,7 +46,7 @@ span{
     display: inline-block;
 }
 .ag{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .pa,.to,.tol{
  color: red;
