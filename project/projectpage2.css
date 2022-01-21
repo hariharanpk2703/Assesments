@@ -68,9 +68,11 @@ border: solid;
     font-weight: bolder;
     
     }
-    
+.ag{
+    text-decoration: none ;
+}
 .pa{
-
+ text-decoration: none;
  color: red;
  font-size: 35px;
  font-weight: lighter;

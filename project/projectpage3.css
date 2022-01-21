@@ -41,8 +41,8 @@
     border-style: solid;
     text-align: center;
     font-size: 25px;
-    height: 300px;
-    width: 380px;
+    height: 330px;
+    width: 420px;
     border-radius: 45px;
     display: inline-block;
 }
@@ -51,7 +51,7 @@
     border-color: grey;
     border-style: solid;
     border-radius: 12px;
-    width: 15vw;
+    width: 17vw;
     height: 2.5rem;
     
 }

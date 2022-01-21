@@ -1,0 +1,125 @@
+body{
+    /*background-color: pink;*/
+    margin: 0px;
+}
+.top{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-bottom: 50px;
+    width: 40%;
+}
+.overall{
+    width: 50%;
+    margin-left: 25%;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transform: skewX(-30deg);
+    margin-bottom: 60px;
+    animation: row1 4s linear 1s infinite;
+}
+@keyframes row1{
+    50%{transform: skewX(30deg);}
+}
+.row2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transform: skew(0, 30deg);
+    margin-bottom: 60px;
+    animation: row2 4s linear 1s infinite;
+}
+@keyframes row2{
+    50%{transform: skew(0, -30deg);}
+}
+/*.parent{
+    margin: auto;
+    width: 40%;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row1_box{
+    background-color: rgb(10, 10, 189);
+    height: 100px;
+    width: 100px;
+    margin-bottom: 60px;
+    animation: row1 4s linear 2s infinite;
+    transform: skewX(-20deg);
+}
+@keyframes row1{
+    50%{transform: skew(20deg);}
+}
+.row2_box{
+    background-color: rgb(230, 25, 25);
+    height: 100px;
+    width: 100px;
+    margin-bottom: 60px;
+    transform: skew(0, 25deg);
+    animation: row2 4s linear 2s infinite;
+}
+@keyframes row2{
+    50%{transform: skew(0, -25deg);}
+}
+.row3_box{
+    background-color: rgb(18, 236, 18);
+    height: 100px;
+    width: 100px;
+    margin-bottom: 60px;
+    transform: rotate(0deg);
+    animation: row3 3s ease-in-out 2s infinite;
+}
+
+@keyframes row3 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.row4_box1{
+    background-color: maroon;
+    height: 100px;
+    width: 100px;
+    transform: scale(1, 0.3);
+    animation: row4_box1 3s ease-in-out 2s infinite;
+}
+@keyframes row4_box1 {
+    50% {
+        transform: scale(1, 1);
+    }
+}
+.row4_box2{
+    background-color: rgb(229, 229, 153);
+    height: 100px;
+    width: 100px;
+    transform: scale(0.3, 1);
+    animation: row4_box2 3s ease-in-out 2s infinite;
+}
+@keyframes row4_box2 {
+    50% {
+        transform: scale(1, 1);
+    }
+}
+.row4_box3{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    transform: rotate(0, -90deg);
+    animation: row4_box3 4s linear 2s infinite;
+}
+@keyframes row4_box3 {
+    50% {
+        transform: rotate(90deg);
+    }
+}
+.footer{
+    text-align: center;
+    font-size: 35px;
+}*/

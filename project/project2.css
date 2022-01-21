@@ -45,8 +45,10 @@ span{
     border-radius: 45px;
     display: inline-block;
 }
+.ag{
+    text-decoration: none;
+}
 .pa,.to,.tol{
-
  color: red;
  font-size: 35px;
  font-weight: lighter;
