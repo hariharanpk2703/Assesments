@@ -24,16 +24,16 @@
     border-width: 10px;
     /*position: relative;*/
     position: absolute;
-    left: 705px;
+    left: 605px;
     right: 485px;
-    top: 265px;
+    top: 295px;
     bottom: 155px;
     display: flex;
     z-index: 2;
      
 }
 .box1{
-    box-shadow: 3px 3px 3px 3px red;
+    box-shadow: 10px 10px 10px rgb(212, 204, 204);
     background-color: white;
     opacity: 1;
     box-sizing: border-box;
@@ -41,18 +41,19 @@
     border-style: solid;
     text-align: center;
     font-size: 25px;
-    height: 330px;
-    width: 420px;
-    border-radius: 45px;
+    height: 250px;
+    width: 600px;
+    border-radius: 15px;
     display: inline-block;
 }
 .check{
     box-sizing: border-box;
     border-color: grey;
+    box-shadow: 10px 10px 10px rgb(212, 204, 204);
     border-style: solid;
-    border-radius: 12px;
-    width: 17vw;
-    height: 2.5rem;
+    border-radius: 10px;
+    width: 23vw;
+    height: 2.8rem;
     
 }
 .lis{

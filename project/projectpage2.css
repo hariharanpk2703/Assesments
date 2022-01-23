@@ -44,7 +44,7 @@ border: solid;
     border-width: 10px;
     /*position: relative;*/
     position: absolute;
-    left: 705px;
+    left: 605px;
     right: 485px;
     top: 265px;
     bottom: 155px;
@@ -52,15 +52,15 @@ border: solid;
      
 }
 .box1{
-    box-shadow: 3px 3px 3px 3px red;
+    box-shadow: 10px 10px 10px rgb(212, 204, 204);
     box-sizing: border-box;
     border:red;
     border-style: solid;
     text-align: center;
     font-size: 25px;
     height: 500px;
-    width: 380px;
-    border-radius: 45px;
+    width: 500px;
+    border-radius: 25px;
     display: inline-block;
 }
 .C{
