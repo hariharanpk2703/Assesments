@@ -6,3 +6,4 @@ crtl + Z --> undo
 crtl + Y --> redo
 crtl + C --> copy the selected content
 crtl + V -->paste o the selected content
+-----
