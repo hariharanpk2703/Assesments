@@ -1,0 +1,13 @@
+select{
+    position: absolute;
+    top: 163px;
+    left: 385px;
+    width: 281px;
+    height: 45px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+}
