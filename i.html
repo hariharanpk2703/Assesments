@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="i.css">
+    <link rel="script" href="i.js">
+    <link rel="icon" href="clock.PNG">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="clock">
+        </div>
+        <!-- <div class="clock_msg clock_bo">
+            The message and Image will change according to the time
+        </div> -->
+        
+        <div class="set_box">
+            <div class="wake_up">
+                <span class="wakeup_logo">
+                    <img src="sun.png" alt="">
+                </span>
+                <span class="wakeup-text">Set wake up time</span>
+                <select name="Dropdown" id="wakeup-time" class="wakeup_dropdown">
+                    <option value="" class="dropdown-text">Select Your Time</option>
+                    <option value="0" class="dropdown-text">12 AM - 01 AM</option>
+                    <option value="1" class="dropdown-text">01 AM - 02 AM</option>
+                    <option value="2" class="dropdown-text">02 AM - 03 AM</option>
+                    <option value="3" class="dropdown-text">03 AM - 04 AM</option>
+                    <option value="4" class="dropdown-text">04 AM - 05 AM</option>
+                    <option value="5" class="dropdown-text">05 AM - 06 AM</option>
+                    <option value="6" class="dropdown-text">06 AM - 07 AM</option>
+                    <option value="7" class="dropdown-text">07 AM - 08 AM</option>
+                    <option value="8" class="dropdown-text">08 AM - 09 AM</option>
+                    <option value="9" class="dropdown-text">09 AM - 10 AM</option>
+                    <option value="10" class="dropdown-text">10 AM - 11 AM</option>
+                    <option value="11" class="dropdown-text">11 AM - 12 PM</option>
+                    <option value="12" class="dropdown-text">12 PM - 01 PM</option>
+                    <option value="13" class="dropdown-text">01 PM - 02 PM</option>
+                    <option value="14" class="dropdown-text">02 PM - 03 PM</option>
+                    <option value="15" class="dropdown-text">03 PM - 04 PM</option>
+                    <option value="16" class="dropdown-text">04 PM - 05 PM</option>
+                    <option value="17" class="dropdown-text">05 PM - 06 PM</option>
+                    <option value="18" class="dropdown-text">06 PM - 07 PM</option>
+                    <option value="19" class="dropdown-text">07 PM - 08 PM</option>
+                    <option value="20" class="dropdown-text">08 PM - 09 PM</option>
+                    <option value="21" class="dropdown-text">09 PM - 10 PM</option>
+                    <option value="22" class="dropdown-text">10 PM - 11 PM</option>
+                    <option value="23" class="dropdown-text">11 PM - 12 AM</option>
+                </select>
+            </div>
+            <div class="lunch">
+                <span class="lunch_logo">
+                    <img src="lunch_logo.png" alt="">
+                </span>
+                <span class="lunch-text">Set lunch time</span>
+                <select name="Dropdown" id="lunch-time" class="lunch_dropdown">
+                    <option value="" class="dropdown-text">Select Your Time</option>
+                    <option value="0" class="dropdown-text">12 AM - 01 AM</option>
+                    <option value="1" class="dropdown-text">01 AM - 02 AM</option>
+                    <option value="2" class="dropdown-text">02 AM - 03 AM</option>
+                    <option value="3" class="dropdown-text">03 AM - 04 AM</option>
+                    <option value="4" class="dropdown-text">04 AM - 05 AM</option>
+                    <option value="5" class="dropdown-text">05 AM - 06 AM</option>
+                    <option value="6" class="dropdown-text">06 AM - 07 AM</option>
+                    <option value="7" class="dropdown-text">07 AM - 08 AM</option>
+                    <option value="8" class="dropdown-text">08 AM - 09 AM</option>
+                    <option value="9" class="dropdown-text">09 AM - 10 AM</option>
+                    <option value="10" class="dropdown-text">10 AM - 11 AM</option>
+                    <option value="11" class="dropdown-text">11 AM - 12 PM</option>
+                    <option value="12" class="dropdown-text">12 PM - 01 PM</option>
+                    <option value="13" class="dropdown-text">01 PM - 02 PM</option>
+                    <option value="14" class="dropdown-text">02 PM - 03 PM</option>
+                    <option value="15" class="dropdown-text">03 PM - 04 PM</option>
+                    <option value="16" class="dropdown-text">04 PM - 05 PM</option>
+                    <option value="17" class="dropdown-text">05 PM - 06 PM</option>
+                    <option value="18" class="dropdown-text">06 PM - 07 PM</option>
+                    <option value="19" class="dropdown-text">07 PM - 08 PM</option>
+                    <option value="20" class="dropdown-text">08 PM - 09 PM</option>
+                    <option value="21" class="dropdown-text">09 PM - 10 PM</option>
+                    <option value="22" class="dropdown-text">10 PM - 11 PM</option>
+                    <option value="23" class="dropdown-text">11 PM - 12 AM</option>
+                </select>
+            </div>
+            <div class="nap">
+                <span class="nap_logo">
+                    <img src="nap_logo.png" alt="">
+                </span>
+                <span class="nap-text">Set nap time</span>
+                <select name="Dropdown" id="nap-time" class="nap_dropdown">
+                    <option value="" class="dropdown-text">Select Your Time</option>
+                    <option value="0" class="dropdown-text">12 AM - 01 AM</option>
+                    <option value="1" class="dropdown-text">01 AM - 02 AM</option>
+                    <option value="2" class="dropdown-text">02 AM - 03 AM</option>
+                    <option value="3" class="dropdown-text">03 AM - 04 AM</option>
+                    <option value="4" class="dropdown-text">04 AM - 05 AM</option>
+                    <option value="5" class="dropdown-text">05 AM - 06 AM</option>
+                    <option value="6" class="dropdown-text">06 AM - 07 AM</option>
+                    <option value="7" class="dropdown-text">07 AM - 08 AM</option>
+                    <option value="8" class="dropdown-text">08 AM - 09 AM</option>
+                    <option value="9" class="dropdown-text">09 AM - 10 AM</option>
+                    <option value="10" class="dropdown-text">10 AM - 11 AM</option>
+                    <option value="11" class="dropdown-text">11 AM - 12 PM</option>
+                    <option value="12" class="dropdown-text">12 PM - 01 PM</option>
+                    <option value="13" class="dropdown-text">01 PM - 02 PM</option>
+                    <option value="14" class="dropdown-text">02 PM - 03 PM</option>
+                    <option value="15" class="dropdown-text">03 PM - 04 PM</option>
+                    <option value="16" class="dropdown-text">04 PM - 05 PM</option>
+                    <option value="17" class="dropdown-text">05 PM - 06 PM</option>
+                    <option value="18" class="dropdown-text">06 PM - 07 PM</option>
+                    <option value="19" class="dropdown-text">07 PM - 08 PM</option>
+                    <option value="20" class="dropdown-text">08 PM - 09 PM</option>
+                    <option value="21" class="dropdown-text">09 PM - 10 PM</option>
+                    <option value="22" class="dropdown-text">10 PM - 11 PM</option>
+                    <option value="23" class="dropdown-text">11 PM - 12 AM</option>
+                </select>
+            </div> 
+            <div class="night">
+                <span class="night_logo">
+                    <i class="material-icons" style="font-size:36px;color:#3D087B">local_hotel</i>
+                </span>
+                <span class="night-text">Set night time</span>
+                <select name="Dropdown" id="night-time" class="night_dropdown">
+                    <option value="" class="dropdown-text">Select Your Time</option>
+                    <option value="0" class="dropdown-text">12 AM - 01 AM</option>
+                    <option value="1" class="dropdown-text">01 AM - 02 AM</option>
+                    <option value="2" class="dropdown-text">02 AM - 03 AM</option>
+                    <option value="3" class="dropdown-text">03 AM - 04 AM</option>
+                    <option value="4" class="dropdown-text">04 AM - 05 AM</option>
+                    <option value="5" class="dropdown-text">05 AM - 06 AM</option>
+                    <option value="6" class="dropdown-text">06 AM - 07 AM</option>
+                    <option value="7" class="dropdown-text">07 AM - 08 AM</option>
+                    <option value="8" class="dropdown-text">08 AM - 09 AM</option>
+                    <option value="9" class="dropdown-text">09 AM - 10 AM</option>
+                    <option value="10" class="dropdown-text">10 AM - 11 AM</option>
+                    <option value="11" class="dropdown-text">11 AM - 12 PM</option>
+                    <option value="12" class="dropdown-text">12 PM - 01 PM</option>
+                    <option value="13" class="dropdown-text">01 PM - 02 PM</option>
+                    <option value="14" class="dropdown-text">02 PM - 03 PM</option>
+                    <option value="15" class="dropdown-text">03 PM - 04 PM</option>
+                    <option value="16" class="dropdown-text">04 PM - 05 PM</option>
+                    <option value="17" class="dropdown-text">05 PM - 06 PM</option>
+                    <option value="18" class="dropdown-text">06 PM - 07 PM</option>
+                    <option value="19" class="dropdown-text">07 PM - 08 PM</option>
+                    <option value="20" class="dropdown-text">08 PM - 09 PM</option>
+                    <option value="21" class="dropdown-text">09 PM - 10 PM</option>
+                    <option value="22" class="dropdown-text">10 PM - 11 PM</option>
+                    <option value="23" class="dropdown-text">11 PM - 12 AM</option>
+                </select>
+            </div>
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        
+        <div class="wish-box"></div>
+        <span id="show-wish" class="wish-text">
+            Pray your wishes !!
+        </span>
+        
+        <div class="party-box" id="party-time" onclick="setDisplay()">
+            <span class="party-text">Set Alarm</span>
+        </div>
+        <div class="timing-note-box"></div>
+        <div class="timing-note">
+            <div id="wakeup-note">
+                Wake Up Time : Select Your Time
+            </div>
+            <!-- Wake Up Time : 10AM - 11AM <br>        -->
+            <div id="lunch-note">
+                Lunch Time : Select Your Time
+            </div>
+            <!-- Lunch Time : 12PM - 1PM <br> -->
+            <div id="nap-note">
+                Nap Time : Select Your Time
+            </div>
+            <!-- Nap Time : 4PM - 5PM <br> -->
+            <div id="night-note">
+                Night Time : Select Your Time
+            </div>
+            <!-- Night Time : 8PM - 9AM <br> -->
+        </div>
+    </div>
+    <div class="container">
+        <div class="showtime-box1"></div>
+        <div class="showtime-box2"></div>
+        <div class="showtime-box-main">
+            <div class="full-time-display">
+                <div class="time">Time</div>
+                <div class="time-display">
+                    <div class="hours-box">
+                        <span id="hour" class="hours-digit">10</span>
+                        <span class="hours-text">hours</span>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="mins-box">
+                        <span id="min" class="mins-digit">10</span>
+                        <span class="mins-text">mins</span>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="secs-box">
+                        <span id="sec" class="secs-digit">10</span>
+                        <span class="secs-text">secs</span>
+                    </div>
+                    <div class="AMPM-box">
+                        <span id="ampm"  class="AMPM">AM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="food-box">
+            <div id="show-text" class="food-text">
+                Let's Plan Our Day !!
+            </div>
+        </div>
+        <div id="show-img" class="photo"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+

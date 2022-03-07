@@ -1,0 +1,1956 @@
+body{
+    margin: 0px;
+    background-color: #3D087B; 
+}
+
+/* .container{
+    height: 10px;
+} */
+/* .fleft{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 10%;
+} */
+
+.clock{
+    position: relative;
+    top: 34px;
+    left: 124px;
+    background-repeat: no-repeat;
+    width: 204px;
+    height: 77px;
+    background: transparent url(clock_logo.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* .clock_msg{
+    top: 33px;
+    left: 490px;
+    width: 190px;
+    height: 57px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 14px/20px Inter;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal normal 14px/20px Inter;
+    letter-spacing: 0px;
+    color: #858585;
+    opacity: 1;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #00000029;
+    border-radius: 10px;
+} */
+.set_box{
+    display: grid;
+    position: relative;
+    top: 70px;
+    left: 124px;
+    width: 566px;
+    height: 363px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+}
+.wake_up{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 40%;
+    left: auto;
+    right: auto;
+    margin-left: 15px;
+    width: 517px;
+    height: 45px;
+    opacity: 1;
+}
+.wakeup_logo{
+    /* position: relative;
+    top: 16px;
+    left: 0px; */
+    width: 34px;
+    height: 34px;
+    /* background: url(sun.png); */    
+    opacity: 1;
+}
+.wakeup-text{
+    font-size: 1.6em;
+    color: #3d087b;
+    /* position: relative;
+    top: 8px;
+    left: 10px; */
+    width: 8em;
+    height: 1.2em;
+    text-align: left;
+    opacity: 1;
+}
+.wakeup_dropdown{
+
+    width: 15em;
+    height: 3em;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    color: #3d087bde;
+    font-size: 0.9em;
+    opacity: 1;
+}
+
+.lunch{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 20%;
+    left: auto;
+    right: auto;
+    margin-left: 15px;
+    width: 517px;
+    height: 45px;
+    opacity: 1;
+}
+.lunch_logo{
+    width: 34px;
+    height: 34px;
+    opacity: 1;
+}
+.lunch-text{
+    font-size: 1.6em;
+    color: #3d087b;
+    width: 8em;
+    height: 1.2em;
+    text-align: left;
+    opacity: 1;
+}
+.lunch_dropdown{
+
+    width: 15em;
+    height: 3em;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    color: #3d087bde;
+    font-size: 0.9em;
+    opacity: 1;
+}
+
+.nap{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 20%;
+    left: auto;
+    right: auto;
+    margin-left: 15px;
+    width: 517px;
+    height: 45px;
+    opacity: 1;
+}
+.nap_logo{
+    width: 34px;
+    height: 34px;
+    opacity: 1;
+}
+.nap-text{
+    font-size: 1.6em;
+    color: #3d087b;
+    width: 8em;
+    height: 1.2em;
+    text-align: left;
+    opacity: 1;
+
+}
+.nap_dropdown{
+
+    width: 15em;
+    height: 3em;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    color: #3d087bde;
+    font-size: 0.9em;
+    opacity: 1;
+}
+
+.night{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 20%;
+    left: auto;
+    right: auto;
+    margin-left: 15px;
+    width: 517px;
+    height: 45px;
+    opacity: 1;
+}
+.night_logo{
+    width: 34px;
+    height: 34px;
+    opacity: 1;
+}
+.night-text{
+    font-size: 1.6em;
+    color: #3d087b;
+    width: 8em;
+    height: 1.2em;
+    text-align: left;
+    opacity: 1;
+}
+.night_dropdown{
+
+    width: 15em;
+    height: 3em;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    color: #3d087bde;
+    font-size: 0.9em;
+    opacity: 1;
+}
+
+.line1 {
+    width: 1px;
+    height: 32px;
+    background-color: lightgray;
+    position: absolute;
+    top: 75px;
+    left: 42px;
+    border-radius: 4px;
+    opacity: 1;
+}
+.line2 {
+    width: 1px;
+    height: 32px;
+    background-color: lightgray;
+    position: absolute;
+    top: 155px;
+    left: 40px;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.line3 {
+    width: 1px;
+    height: 32px;
+    background-color: lightgray;
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    border-radius: 4px;
+    opacity: 1;
+
+}
+
+.wish-box{
+    position: absolute;
+    top: 520px;
+    left: 124px;
+    width: 566px;
+    height: 77px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 0.23;
+}
+.wish-text{
+    position: absolute;
+    top: 540px;
+    left: 190px;
+    width: 420px;
+    height: 34px;
+    /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) 27px/34px var(--unnamed-font-family-bauhaus-hv-bt); */
+    font-family: cursive;
+    font-size: 1.8em;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    /* font: normal normal 900 27px/34px Bauhaus Hv BT; */
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.party-box{
+    position: absolute;
+    top: 610px;
+    left: 124px;
+    width: 299px;
+    height: 50px;
+    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    text-align: center;
+    opacity: 1;
+    margin-bottom: 0%;
+}
+.party-box:hover{
+    width: 299px;
+    height: 50px;
+    background: transparent linear-gradient(280deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    cursor: pointer;
+    margin-bottom: 0%;
+}
+.party-text{
+    position: relative;
+    top: 10%;
+    width: 111px;
+    height: 31px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    font: normal normal 600 24px/38px Manrope;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.party-box:hover .party-text{
+    display: none;
+}
+.party-box:hover:before {
+    content: "Party time!";
+    position: relative;
+    top: 10%;
+    /* left: 211px; */
+    width: 125px;
+    height: 31px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal 600 24px/38px Manrope;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 0%;
+}
+
+.timing-note-box{
+    position: absolute;
+    top: 610px;
+    left: 437px;
+    width: 253px;
+    height: 117px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 0.23;
+    margin-bottom: 0%;
+}
+.timing-note{
+    position: absolute;
+    top: 625px;
+    left: 449px;
+    width: 220px;
+    height: 94px;
+    font: var(--unnamed-font-style-normal) normal bold 15px/25px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal bold 15px/25px Manrope;
+    letter-spacing: 0px;
+    color: #F25CFE;
+    opacity: 1;
+}
+
+.showtime-box1{
+    position: absolute;
+    top: 67px;
+    left: 785px;
+    width: 379px;
+    height: 130px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.22;
+}
+.showtime-box2{
+    position: absolute;
+    top: 55px;
+    left: 766px;
+    width: 416px;
+    height: 130px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.71;
+}
+.showtime-box-main{
+    /* display: flex;
+    flex-direction: row; */
+    position: absolute;
+    top: 42px;
+    left: 706px;
+    width: 536px;
+    height: 130px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.full-time-display{
+    position: relative;
+    top: 12%;
+    left: 5%;
+    width: 458px;
+    height: 90px;
+    opacity: 1;
+    text-align: center;
+}
+.time{
+    position: relative;
+    top: 32%;
+    left: -2.5%;
+    width: 46px;
+    height: 26px;
+    letter-spacing: 0px;
+    color: #3D087B;
+    font-size: 2rem;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.time-display{
+    position: relative;
+    bottom: 22.5%;
+    left: 80px;
+    display: flex;
+    justify-content: space-around;
+    width: 380px;
+    height: 90px;
+    opacity: 1;
+}
+.hours-box{
+    /* position: relative;
+    top: 62px;
+    left: 823px; */
+    width: 82px;
+    height: 90px;
+    background: var(--unnamed-color-f6e2ff) 0% 0% no-repeat padding-box;
+    background: #F6E2FF 0% 0% no-repeat padding-box;
+    /* background: transparent url(timeline.svg) 0% 0% no-repeat padding-box; */
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.hours-digit{
+    position: relative;
+    /* top: 110px; */
+    left: 22.5%;
+    width: 46px;
+    height: 26px;
+    letter-spacing: 0px;
+    color: #5F0089;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 1;
+}
+.hours-text{
+    position: relative;
+    /* top: 110px; */
+    left: 5%;
+    width: 46px;
+    height: 26px;
+    letter-spacing: 0px;
+    color: #5F0089;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 1;
+}
+
+.colon{
+    position: relative;
+    top: 25%;
+    /* left: 911px; */
+    width: 4px;
+    height: 22px;
+    color: #8A11BF;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    /* background: var(--unnamed-color-8a11bf) 0% 0% no-repeat padding-box;
+    background: #8A11BF 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+
+.mins-box{
+    width: 82px;
+    height: 90px;
+    background: var(--unnamed-color-f6e2ff) 0% 0% no-repeat padding-box;
+    background: #F6E2FF 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.mins-digit{
+    position: relative;
+    /* top: 110px; */
+    left: 22.5%;
+    width: 46px;
+    height: 26px;
+    letter-spacing: 0px;
+    color: #5F0089;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 1;
+}
+.mins-text{
+    position: relative;
+    /* top: 110px; */
+    left: 12.5%;
+    width: 46px;
+    height: 26px;
+    letter-spacing: 0px;
+    color: #5F0089;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 1;
+}
+
+
+.secs-box{
+    width: 82px;
+    height: 90px;
+    background: var(--unnamed-color-f6e2ff) 0% 0% no-repeat padding-box;
+    background: #F6E2FF 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.secs-digit{
+    position: relative;
+    /* top: 110px; */
+    left: 22.5%;
+    width: 46px;
+    height: 26px;
+    letter-spacing: 0px;
+    color: #5F0089;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 1;
+}
+.secs-text{
+    position: relative;
+    /* top: 110px; */
+    left: 15%;
+    width: 46px;
+    height: 26px;
+    letter-spacing: 0px;
+    color: #5F0089;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 1;
+}
+.AMPM-box{
+    position: relative;
+    /* top: 62px; */
+    left: 5%;
+    width: 82px;
+    height: 90px;
+    background: transparent url(AM_svg.svg) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.AMPM{
+    position: relative;
+    top: 22%;
+    /* left: 1138px; */
+    width: 48px;
+    height: 43px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-family: cursive;
+    font-size: 2rem;
+    opacity: 1;
+} 
+
+.food-box{
+    position: absolute;
+    top: 212px;
+    left: 706px;
+    width: 536px;
+    height: 118px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+}
+.food-text{
+    position: relative;
+    top: 30%;
+    /* left: 728px; */
+    width: 538px;
+    height: 50px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-30)/40px var(--unnamed-font-family-bauhaus-hv-bt);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-8e53f0);
+    text-align: center;
+    /* font: normal normal 900 30px/40px Bauhaus Hv BT; */
+    font: normal normal 900 26px/40px Bauhaus Hv BT;
+    letter-spacing: 0px;
+    color: #5F0089;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.photo{
+    position: absolute;
+    top: 345px;
+    left: 707px;
+    width: 40%;
+    height: 60%;
+    background: transparent url(main.jpg) 0% 0% no-repeat padding-box;
+    background-size: 100% 100%;
+    border: 2px solid wheat ;
+    border-radius: 10px;
+    opacity: 1;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+
+
+@media only screen and (min-width: 420px) and (max-width: 760px){
+    
+
+.clock{
+    position: relative;
+    top: 34px;
+    right: 0px;
+    left: 40px;
+}
+
+.set_box{
+    position: absolute;
+    top: 420px;
+    left: 5%;
+    right: 0%;
+    width: 90%;
+}
+.wake_up{
+    width: 90%;
+}
+.wakeup-text{
+    width: 8rem;
+    text-align: center
+}
+.wakeup_dropdown{
+
+    width: 6rem;
+}
+
+.lunch{
+    width: 90%;
+}
+
+.lunch-text{
+    width: 8rem;
+    text-align: center;
+}
+.lunch_dropdown{
+
+    width: 6rem;
+}
+
+.nap{
+    width: 90%;
+}
+.nap-text{
+    width: 8rem;
+    text-align: center;
+
+}
+.nap_dropdown{
+
+    width: 6rem;
+    
+}
+
+.night{
+    width: 90%;
+}
+
+.night-text{
+    width: 8rem;
+    text-align: center;
+}
+.night_dropdown{
+
+    width: 6rem;
+}
+
+.wish-box{
+    position: absolute;
+    top: 310px;
+    left: 5%;
+    width: 90%;
+    height: 90px;
+}
+.wish-text{
+    position: absolute;
+    top: 318px;
+    left: 24px;
+    width: 90%;    
+}
+
+.party-box{
+    position: absolute;
+    top: 800px;
+    left: 5%;
+    width: 90%;
+}
+.party-box:hover{
+    width: 90%;
+    
+}
+
+.timing-note-box{
+    position: absolute;
+    top: 862px;
+    left: 5%;
+    width: 90%;
+    height: 117px;
+}
+.timing-note{
+    position: absolute;
+    top: 868px;
+    left: 32px;
+}
+
+.showtime-box1{
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    width: 60%;
+}
+.showtime-box2{
+    position: absolute;
+    top: 20%;
+    left: 12.5%;
+    width: 75%;
+}
+.showtime-box-main{
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    width: 90%;
+}
+
+.full-time-display{
+    position: absolute;
+    top: 2%;
+    width: 90%;
+    height: 90%;
+}
+.time{
+    font-size: 1.8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.time-display{
+    position: relative;
+    bottom: 10%;
+    left: 20%;
+    justify-content: left;
+}
+.hours-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.hours-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.hours-text{
+    display: none;
+}
+
+.colon{
+    z-index: +1;
+    
+}
+
+.mins-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.mins-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.mins-text{
+    display: none;
+}
+
+
+.secs-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.secs-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.secs-text{
+    display: none;
+}
+
+.food-box{
+    position: absolute;
+    top: 992px;
+    left: 5%;
+    width: 90%;
+}
+.food-text{
+    position: relative;
+    top: 0%;
+    width: 90%;
+}
+
+.photo{
+    position: absolute;
+    top: 1130px;
+    left: 5%;
+    bottom: 0%;
+    width: 90%;
+    border-radius: 10px;
+    height: 100%;
+    background: transparent url(main.jpg) 0% 0% no-repeat padding-box;
+    background-size: 100% 60%;
+    border: none;
+}
+}
+
+@media only screen and (max-width: 414px){
+    
+
+.clock{
+    position: relative;
+    top: 34px;
+    right: 0px;
+    left: 40px;
+}
+
+.set_box{
+    position: absolute;
+    top: 420px;
+    left: 5%;
+    right: 0%;
+    width: 90%;
+}
+.wake_up{
+    width: 90%;
+}
+.wakeup-text{
+    width: 8rem;
+    text-align: center
+}
+.wakeup_dropdown{
+
+    width: 6rem;
+}
+
+.lunch{
+    width: 90%;
+}
+
+.lunch-text{
+    width: 8rem;
+    text-align: center;
+}
+.lunch_dropdown{
+
+    width: 6rem;
+}
+
+.nap{
+    width: 90%;
+}
+.nap-text{
+    width: 8rem;
+    text-align: center;
+
+}
+.nap_dropdown{
+
+    width: 6rem;
+    
+}
+
+.night{
+    width: 90%;
+}
+
+.night-text{
+    width: 8rem;
+    text-align: center;
+}
+.night_dropdown{
+
+    width: 6rem;
+}
+
+.wish-box{
+    position: absolute;
+    top: 310px;
+    left: 5%;
+    width: 90%;
+    height: 90px;
+}
+.wish-text{
+    position: absolute;
+    top: 318px;
+    left: 24px;
+    width: 90%;    
+}
+
+.party-box{
+    position: absolute;
+    top: 800px;
+    left: 5%;
+    width: 90%;
+}
+.party-box:hover{
+    width: 90%;
+    
+}
+
+.timing-note-box{
+    position: absolute;
+    top: 862px;
+    left: 5%;
+    width: 90%;
+    height: 117px;
+}
+.timing-note{
+    position: absolute;
+    top: 868px;
+    left: 32px;
+}
+
+.showtime-box1{
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    width: 60%;
+}
+.showtime-box2{
+    position: absolute;
+    top: 20%;
+    left: 12.5%;
+    width: 75%;
+}
+.showtime-box-main{
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    width: 90%;
+}
+
+.full-time-display{
+    position: absolute;
+    top: 2%;
+    width: 90%;
+    height: 90%;
+}
+.time{
+    font-size: 1.8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.time-display{
+    position: relative;
+    bottom: 10%;
+    left: 20%;
+    justify-content: left;
+}
+.hours-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.hours-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.hours-text{
+    display: none;
+}
+
+.colon{
+    z-index: +1;
+    
+}
+
+.mins-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.mins-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.mins-text{
+    display: none;
+}
+
+.secs-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.secs-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.secs-text{
+    display: none;
+}
+
+.food-box{
+    position: absolute;
+    top: 992px;
+    left: 5%;
+    width: 90%;
+}
+.food-text{
+    position: relative;
+    top: 0%;
+    width: 90%;
+}
+
+.photo{
+    position: absolute;
+    top: 1130px;
+    left: 5%;
+    bottom: 0%;
+    width: 90%;
+    border-radius: 10px;
+    height: 100%;
+    background: transparent url(main.jpg) 0% 0% no-repeat padding-box;
+    background-size: 100% 60%;
+   
+    border: none;
+}
+}
+
+@media only screen and (min-width: 392px) and (max-width: 393px){
+    
+
+.clock{
+    position: relative;
+    top: 34px;
+    right: 0px;
+    left: 40px;
+}
+
+.set_box{
+    position: absolute;
+    top: 424px;
+    left: 5%;
+    right: 0%;
+    width: 90%;
+}
+.wake_up{
+    width: 90%;
+}
+.wakeup-text{
+    width: 8rem;
+    text-align: center
+}
+.wakeup_dropdown{
+
+    width: 6rem;
+}
+
+.lunch{
+    width: 90%;
+}
+
+.lunch-text{
+    width: 8rem;
+    text-align: center;
+}
+.lunch_dropdown{
+
+    width: 6rem;
+}
+
+.nap{
+    width: 90%;
+}
+.nap-text{
+    width: 8rem;
+    text-align: center;
+
+}
+.nap_dropdown{
+
+    width: 6rem;
+    
+}
+
+.night{
+    width: 90%;
+}
+
+.night-text{
+    width: 8rem;
+    text-align: center;
+}
+.night_dropdown{
+
+    width: 6rem;
+}
+
+.wish-box{
+    position: absolute;
+    top: 320px;
+    left: 5%;
+    width: 90%;
+    height: 90px;
+}
+.wish-text{
+    position: absolute;
+    top: 328px;
+    left: 24px;
+    width: 80%;    
+}
+
+.party-box{
+    position: absolute;
+    top: 800px;
+    left: 5%;
+    width: 90%;
+}
+.party-box:hover{
+    width: 90%;
+    
+}
+
+.timing-note-box{
+    position: absolute;
+    top: 862px;
+    left: 5%;
+    width: 90%;
+    height: 117px;
+}
+.timing-note{
+    position: absolute;
+    top: 868px;
+    left: 32px;
+}
+
+.showtime-box1{
+    position: absolute;
+    top: 20.98%;
+    left: 20%;
+    width: 60%;
+}
+.showtime-box2{
+    position: absolute;
+    top: 20%;
+    left: 12.5%;
+    width: 75%;
+}
+.showtime-box-main{
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    width: 90%;
+}
+
+.full-time-display{
+    position: absolute;
+    top: 2%;
+    width: 90%;
+    height: 90%;
+}
+.time{
+    font-size: 1.8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.time-display{
+    position: relative;
+    bottom: 10%;
+    left: 20%;
+    justify-content: left;
+}
+.hours-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.hours-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.hours-text{
+    display: none;
+}
+
+.colon{
+    z-index: +1;
+    
+}
+
+.mins-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.mins-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.mins-text{
+    display: none;
+}
+
+
+.secs-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.secs-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.secs-text{
+    display: none;
+}
+
+.food-box{
+    position: absolute;
+    top: 992px;
+    left: 5%;
+    width: 90%;
+}
+.food-text{
+    position: relative;
+    top: 0%;
+    width: 90%;
+}
+
+.photo{
+    position: absolute;
+    top: 1130px;
+    left: 5%;
+    bottom: 0%;
+    width: 90%;
+    border-radius: 10px;
+    height: 100%;
+    background: transparent url(main.jpg) 0% 0% no-repeat padding-box;
+    background-size: 100% 60%;
+    border: none;
+}
+}
+
+@media only screen and (min-width: 389px) and (max-width: 390px){
+    
+.clock{
+    position: relative;
+    top: 34px;
+    right: 0px;
+    left: 40px;
+}
+
+.set_box{
+    position: absolute;
+    top: 425px;
+    left: 5%;
+    right: 0%;
+    width: 90%;
+}
+.wake_up{
+    width: 90%;
+}
+.wakeup-text{
+    width: 8rem;
+    text-align: center
+}
+.wakeup_dropdown{
+
+    width: 6rem;
+}
+
+.lunch{
+    width: 90%;
+}
+
+.lunch-text{
+    width: 8rem;
+    text-align: center;
+}
+.lunch_dropdown{
+
+    width: 6rem;
+}
+
+.nap{
+    width: 90%;
+}
+.nap-text{
+    width: 8rem;
+    text-align: center;
+
+}
+.nap_dropdown{
+
+    width: 6rem;
+    
+}
+
+.night{
+    width: 90%;
+}
+
+.night-text{
+    width: 8rem;
+    text-align: center;
+}
+.night_dropdown{
+
+    width: 6rem;
+}
+
+.wish-box{
+    position: absolute;
+    top: 322px;
+    left: 5%;
+    width: 90%;
+    height: 90px;
+}
+.wish-text{
+    position: absolute;
+    top: 320px;
+    left: 24px;
+    width: 90%;    
+}
+
+.party-box{
+    position: absolute;
+    top: 800px;
+    left: 5%;
+    width: 90%;
+}
+.party-box:hover{
+    width: 90%;
+    
+}
+
+.timing-note-box{
+    position: absolute;
+    top: 862px;
+    left: 5%;
+    width: 90%;
+    height: 117px;
+}
+.timing-note{
+    position: absolute;
+    top: 868px;
+    left: 32px;
+}
+
+.showtime-box1{
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    width: 60%;
+}
+.showtime-box2{
+    position: absolute;
+    top: 20%;
+    left: 12.5%;
+    width: 75%;
+}
+.showtime-box-main{
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    width: 90%;
+}
+
+.full-time-display{
+    position: absolute;
+    top: 2%;
+    width: 90%;
+    height: 90%;
+}
+.time{
+    font-size: 1.8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.time-display{
+    position: relative;
+    bottom: 10%;
+    left: 20%;
+    justify-content: left;
+}
+.hours-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.hours-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.hours-text{
+    display: none;
+}
+
+.colon{
+    z-index: +1;
+    
+}
+
+.mins-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.mins-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.mins-text{
+    display: none;
+}
+
+
+.secs-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.secs-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.secs-text{
+    display: none;
+}
+
+.food-box{
+    position: absolute;
+    top: 992px;
+    left: 5%;
+    width: 90%;
+}
+.food-text{
+    position: relative;
+    top: 0%;
+    width: 90%;
+}
+
+.photo{
+    position: absolute;
+    top: 1130px;
+    left: 5%;
+    bottom: 0%;
+    width: 90%;
+    border-radius: 10px;
+    height: 100%;
+    background: transparent url(main.jpg) 0% 0% no-repeat padding-box;
+    background-size: 100% 60%;
+    border: none;
+}
+}
+
+@media only screen and (max-width: 375px){
+    
+
+.clock{
+    position: relative;
+    top: 34px;
+    right: 0px;
+    left: 40px;
+}
+
+.set_box{
+    position: absolute;
+    top: 420px;
+    left: 5%;
+    right: 0%;
+    width: 90%;
+}
+.wake_up{
+    width: 90%;
+}
+.wakeup-text{
+    width: 8rem;
+    text-align: center
+}
+.wakeup_dropdown{
+
+    width: 6rem;
+}
+
+.lunch{
+    width: 90%;
+}
+
+.lunch-text{
+    width: 8rem;
+    text-align: center;
+}
+.lunch_dropdown{
+
+    width: 6rem;
+}
+
+.nap{
+    width: 90%;
+}
+.nap-text{
+    width: 8rem;
+    text-align: center;
+
+}
+.nap_dropdown{
+
+    width: 6rem;
+    
+}
+
+.night{
+    width: 90%;
+}
+
+.night-text{
+    width: 8rem;
+    text-align: center;
+}
+.night_dropdown{
+
+    width: 6rem;
+}
+
+.wish-box{
+    position: absolute;
+    top: 310px;
+    left: 5%;
+    width: 90%;
+    height: 90px;
+}
+.wish-text{
+    position: absolute;
+    top: 318px;
+    left: 24px;
+    width: 90%;    
+}
+
+.party-box{
+    position: absolute;
+    top: 800px;
+    left: 5%;
+    width: 90%;
+}
+.party-box:hover{
+    width: 90%;
+    
+}
+
+.timing-note-box{
+    position: absolute;
+    top: 862px;
+    left: 5%;
+    width: 90%;
+    height: 117px;
+}
+.timing-note{
+    position: absolute;
+    top: 868px;
+    left: 32px;
+}
+
+.showtime-box1{
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    width: 60%;
+}
+.showtime-box2{
+    position: absolute;
+    top: 20.5%;
+    left: 12.5%;
+    width: 75%;
+}
+.showtime-box-main{
+    position: absolute;
+    top: 18.5%;
+    left: 5%;
+    width: 90%;
+}
+
+.full-time-display{
+    position: absolute;
+    top: 2%;
+    width: 90%;
+    height: 90%;
+}
+.time{
+    font-size: 1.8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.time-display{
+    position: relative;
+    bottom: 10%;
+    left: 20%;
+    justify-content: left;
+}
+.hours-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.hours-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.hours-text{
+    display: none;
+}
+
+.colon{
+    z-index: +1;
+    
+}
+
+.mins-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.mins-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.mins-text{
+    display: none;
+}
+
+
+.secs-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.secs-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.secs-text{
+    display: none;
+}
+
+.food-box{
+    position: absolute;
+    top: 992px;
+    left: 5%;
+    width: 90%;
+}
+.food-text{
+    position: relative;
+    top: 0%;
+    width: 90%;
+}
+
+.photo{
+    position: absolute;
+    top: 1130px;
+    left: 5%;
+    bottom: 0%;
+    width: 90%;
+    border-radius: 10px;
+    height: 100%;
+    background: transparent url(main.jpg) 0% 0% no-repeat padding-box;
+    background-size: 100% 60%;
+    border: none;
+}
+}
+
+@media only screen and (max-width: 360px){
+    
+
+.clock{
+    position: relative;
+    top: 34px;
+    right: 0px;
+    left: 40px;
+}
+
+.set_box{
+    position: absolute;
+    top: 420px;
+    left: 5%;
+    right: 0%;
+    width: 90%;
+}
+.wake_up{
+    width: 90%;
+}
+.wakeup-text{
+    width: 8rem;
+    text-align: center
+}
+.wakeup_dropdown{
+
+    width: 6rem;
+}
+
+.lunch{
+    width: 90%;
+}
+
+.lunch-text{
+    width: 8rem;
+    text-align: center;
+}
+.lunch_dropdown{
+
+    width: 6rem;
+}
+
+.nap{
+    width: 90%;
+}
+.nap-text{
+    width: 8rem;
+    text-align: center;
+
+}
+.nap_dropdown{
+
+    width: 6rem;
+    
+}
+
+.night{
+    width: 90%;
+}
+
+.night-text{
+    width: 8rem;
+    text-align: center;
+}
+.night_dropdown{
+
+    width: 6rem;
+}
+
+.wish-box{
+    position: absolute;
+    top: 310px;
+    left: 5%;
+    width: 90%;
+    height: 90px;
+}
+.wish-text{
+    position: absolute;
+    top: 318px;
+    left: 24px;
+    width: 90%;    
+}
+
+.party-box{
+    position: absolute;
+    top: 800px;
+    left: 5%;
+    width: 90%;
+}
+.party-box:hover{
+    width: 90%;
+    
+}
+
+.timing-note-box{
+    position: absolute;
+    top: 862px;
+    left: 5%;
+    width: 90%;
+    height: 117px;
+}
+.timing-note{
+    position: absolute;
+    top: 868px;
+    left: 32px;
+}
+
+.showtime-box1{
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    width: 60%;
+}
+.showtime-box2{
+    position: absolute;
+    top: 20%;
+    left: 12.5%;
+    width: 75%;
+}
+.showtime-box-main{
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    width: 90%;
+}
+
+.full-time-display{
+    position: absolute;
+    top: 2%;
+    width: 90%;
+    height: 90%;
+}
+.time{
+    font-size: 1.8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.time-display{
+    position: relative;
+    bottom: 10%;
+    left: 20%;
+    justify-content: left;
+}
+.hours-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.hours-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.hours-text{
+    display: none;
+}
+
+.colon{
+    z-index: +1;
+    
+}
+
+.mins-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.mins-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.mins-text{
+    display: none;
+}
+
+
+.secs-box{
+    position: relative;
+    top: 8%;
+    width: 12%;
+    height: 90%;
+}
+.secs-digit{
+    position: relative;
+    left: 0%;
+    bottom: 14%;
+    font-size: 1.8rem;
+}
+.secs-text{
+    display: none;
+}
+
+.food-box{
+    position: absolute;
+    top: 992px;
+    left: 5%;
+    width: 90%;
+}
+.food-text{
+    position: relative;
+    top: 0%;
+    width: 90%;
+}
+
+.photo{
+    position: absolute;
+    top: 1130px;
+    left: 5%;
+    bottom: 0%;
+    width: 90%;
+    border-radius: 10px;
+    height: 100%;
+    background: transparent url(main.jpg) 0% 0% no-repeat padding-box;
+    background-size: 100% 60%;
+    border: none;
+}
+}
