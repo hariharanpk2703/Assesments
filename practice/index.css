@@ -1,0 +1,10 @@
+.parent{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+.child{
+    height: 200px;
+    width: 200px;
+    border: 5px solid red; 
+}
